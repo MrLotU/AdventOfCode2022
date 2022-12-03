@@ -13,13 +13,13 @@ test_input = '''1000
 
 10000'''
 
-with open('inputs/one.txt', 'r') as f:
+with open('inputs/1.txt', 'r') as f:
     lines = f.read()
 
 # elves = test_input.split('\n\n')
 elves = lines.split('\n\n')
 
-print('---- DAY ONE PART ONE ----')
+print('---- DAY 1 PART 1 ----')
 
 elf_counts = []
 
@@ -30,7 +30,7 @@ for elf in elves:
 
 print(max(elf_counts))
 
-print('---- DAY ONE PART TWO ----')
+print('---- DAY 1 PART 2 ----')
 
 sorted_counts = sorted(elf_counts, reverse=True)
 

@@ -2,7 +2,7 @@ test_input = '''A Y
 B X
 C Z'''
 
-with open('inputs/two.txt', 'r') as f:
+with open('inputs/2.txt', 'r') as f:
     lines = f.readlines()
 
 # lines = test_input.split('\n')
@@ -16,7 +16,7 @@ scores = {
     'Z': 3
 }
 
-print('---- DAY TWO PART ONE ----')
+print('---- DAY 2 PART 1 ----')
 s = 0
 for line in lines:
     o, m = line.split()
@@ -27,7 +27,7 @@ for line in lines:
 
 print(s)
     
-print('---- DAY TWO PART TWO ----')
+print('---- DAY 2 PART 2 ----')
 second_s = 0
 steps = {
     'X': -1,

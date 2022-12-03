@@ -5,13 +5,13 @@ wMqvLMZHhHMvwLHjbvcjnnSBnvTQFn
 ttgJtRGJQctTZtZT
 CrZsJsPPZsGzwwsLwLmpwMDw'''
 
-with open('inputs/three.txt', 'r') as f:
+with open('inputs/3.txt', 'r') as f:
     lines = f.read()
 
 # lines = test_input
 lines = lines.split('\n')
 
-print('---- DAY THREE PART ONE ----')
+print('---- DAY 3 PART 1 ----')
 
 counter = 0
 
@@ -33,7 +33,7 @@ for line in lines:
 
 print(counter)
 
-print('---- DAY THREE PART TWO ----')
+print('---- DAY 3 PART 2 ----')
 
 cc = 0
 def chunks(lst, n):

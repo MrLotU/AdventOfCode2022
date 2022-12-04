@@ -9,6 +9,9 @@ TEMPLATE = """test_input = ''''''
 with open('inputs/{d}.txt', 'r') as f:
     lines = f.read()
 
+lines = test_input
+lines = lines.split('\n')
+
 print('---- DAY {d} PART 1 ----')
 
 print('---- DAY {d} PART 2 ----')

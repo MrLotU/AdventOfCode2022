@@ -10,7 +10,7 @@ with open('inputs/{d}.txt', 'r') as f:
     lines = f.read()
 
 lines = test_input
-lines = lines.split('\n')
+lines = lines.split('\\n')
 
 print('---- DAY {d} PART 1 ----')
 

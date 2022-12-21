@@ -1,8 +1,13 @@
 from datetime import date
 import importlib
 import os
+import sys
 
+a = sys.argv
 d = date.today().day
+if len(a) > 1:
+    d = int(a[1])
+
 
 TEMPLATE = """test_input = ''''''
 
